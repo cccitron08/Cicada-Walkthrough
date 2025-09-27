@@ -1,0 +1,21 @@
+# OS / Editor files
+.DS_Store
+*.swp
+.vscode/
+
+# Sensitive files
+secrets.txt
+*.key
+*.pem
+
+# VM / large binaries
+*.ova
+*.img
+
+# Ignore all txt files
+*.txt
+
+# But allow specific ones (whitelist)
+!README.txt
+!TOOLS/*.txt
+*.md
