@@ -44,15 +44,16 @@ Disable remote deployment in production, or require stricter controls around who
 Run Tomcat with the least privileges possible so an exploited app can’t fully compromise the OS.
 
 Monitor and alert on manager uploads and unusual deployments.
-<img width="1174" height="195" alt="war" src="https://github.com/user-attachments/assets/e178853d-51cb-4d33-86a5-4424686175e4" />
-<img width="1430" height="475" alt="tomcatversion" src="https://github.com/user-attachments/assets/cb70940b-c152-433d-97d2-2838b4769f0d" />
-<img width="371" height="78" alt="system" src="https://github.com/user-attachments/assets/aa07849d-3d0f-4d43-b286-85366359c4d0" />
-<img width="828" height="205" alt="set2" src="https://github.com/user-attachments/assets/79ed28fd-3cf8-4465-852d-c3872ee0ba79" />
-<img width="585" height="131" alt="set1" src="https://github.com/user-attachments/assets/4a9bf838-bcb3-4c0d-af67-1504bf7ba4a5" />
-<img width="760" height="521" alt="msfconsole" src="https://github.com/user-attachments/assets/a12d1213-79fc-4495-b43c-713d25235d14" />
 <img width="285" height="121" alt="icon" src="https://github.com/user-attachments/assets/86a31e60-803e-4fdd-95e2-8afb4ed63a69" />
-<img width="631" height="254" alt="flags" src="https://github.com/user-attachments/assets/12ec3f32-6849-4009-aab7-74ec1ed336dd" />
-<img width="696" height="618" alt="finish" src="https://github.com/user-attachments/assets/f43448b0-86cc-4e18-8b26-79dff30041dd" />
-<img width="1300" height="420" alt="creds" src="https://github.com/user-attachments/assets/86a5d8f2-e0e4-46cf-a7cf-4b83d3fc52b2" />
 <img width="530" height="137" alt="nmap" src="https://github.com/user-attachments/assets/c0531a73-03c0-4216-bbb0-c522aa759b71" />
+<img width="1430" height="475" alt="tomcatversion" src="https://github.com/user-attachments/assets/cb70940b-c152-433d-97d2-2838b4769f0d" />
+<img width="1300" height="420" alt="creds" src="https://github.com/user-attachments/assets/86a5d8f2-e0e4-46cf-a7cf-4b83d3fc52b2" />
+<img width="1174" height="195" alt="war" src="https://github.com/user-attachments/assets/e178853d-51cb-4d33-86a5-4424686175e4" />
+<img width="760" height="521" alt="msfconsole" src="https://github.com/user-attachments/assets/a12d1213-79fc-4495-b43c-713d25235d14" />
+<img width="585" height="131" alt="set1" src="https://github.com/user-attachments/assets/4a9bf838-bcb3-4c0d-af67-1504bf7ba4a5" />
+<img width="828" height="205" alt="set2" src="https://github.com/user-attachments/assets/79ed28fd-3cf8-4465-852d-c3872ee0ba79" />
+<img width="371" height="78" alt="system" src="https://github.com/user-attachments/assets/aa07849d-3d0f-4d43-b286-85366359c4d0" />
+<img width="631" height="254" alt="flags" src="https://github.com/user-attachments/assets/dec166fd-6377-4987-9ade-14b3816f581a" />
+<img width="696" height="618" alt="finish" src="https://github.com/user-attachments/assets/f43448b0-86cc-4e18-8b26-79dff30041dd" />
+
 
