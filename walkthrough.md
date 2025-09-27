@@ -1,4 +1,6 @@
 <img width="285" height="121" alt="icon" src="https://github.com/user-attachments/assets/86a31e60-803e-4fdd-95e2-8afb4ed63a69" />
+
+
 Walkthrough — `Jerry`
 
 I found a http-proxy on port 8080, visited http://<ip>:8080, found myself a Tomcat Manager. 
@@ -24,6 +26,7 @@ A .war (Web Application Archive) is just a zip-style package that contains a Jav
 How the compromise happened
 
 I used Metasploit’s multi/http/tomcat_mgr_upload module to take advantage of the manager’s upload feature. With the manager credentials in hand, the module uploaded a crafted WAR which Tomcat deployed and executed. I didn’t need to do any manual post-upload steps in the web UI — the module handled the upload and triggered the payload. The resulting session showed the server identity as SYSTEM, giving full control over the host.
+
 <img width="760" height="521" alt="msfconsole" src="https://github.com/user-attachments/assets/a12d1213-79fc-4495-b43c-713d25235d14" />
 
 <img width="585" height="131" alt="set1" src="https://github.com/user-attachments/assets/4a9bf838-bcb3-4c0d-af67-1504bf7ba4a5" />
@@ -37,6 +40,7 @@ Once the session was established I checked the Administrator directory and recov
 <img width="371" height="78" alt="system" src="https://github.com/user-attachments/assets/aa07849d-3d0f-4d43-b286-85366359c4d0" />
 
 <img width="631" height="254" alt="flags" src="https://github.com/user-attachments/assets/dec166fd-6377-4987-9ade-14b3816f581a" />
+
 Why this worked (in plain terms)
 
 The Tomcat Manager was exposed and accessible.
@@ -64,3 +68,4 @@ Run Tomcat with the least privileges possible so an exploited app can’t fully 
 Monitor and alert on manager uploads and unusual deployments.
 
 <img width="696" height="618" alt="finish" src="https://github.com/user-attachments/assets/f43448b0-86cc-4e18-8b26-79dff30041dd" />
+
