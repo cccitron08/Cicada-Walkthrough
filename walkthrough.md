@@ -1,9 +1,9 @@
-<img width="285" height="121" alt="icon" src="https://github.com/user-attachments/assets/86a31e60-803e-4fdd-95e2-8afb4ed63a69" />
+                      <img width="285" height="121" alt="icon" src="https://github.com/user-attachments/assets/86a31e60-803e-4fdd-95e2-8afb4ed63a69" />
 
 
 Walkthrough — `Jerry`
 
-I found a http-proxy on port 8080, visited http://<ip>:8080, found myself a Tomcat Manager. 
+I found a http-proxy on port 8080, visited http://`<ip>`:8080, found myself a Tomcat Manager. 
 Authenticated to the Tomcat Manager using the creds tomcat:s3cret, and used Metasploit’s multi/http/tomcat_mgr_upload module to upload a malicious .war. The uploaded WAR executed on the server and gave a SYSTEM-level session. From that session I recovered both user and root flags that were sitting in the Administrator directory.
 
 What I discovered first
@@ -68,4 +68,5 @@ Run Tomcat with the least privileges possible so an exploited app can’t fully 
 Monitor and alert on manager uploads and unusual deployments.
 
 <img width="696" height="618" alt="finish" src="https://github.com/user-attachments/assets/f43448b0-86cc-4e18-8b26-79dff30041dd" />
+
 
