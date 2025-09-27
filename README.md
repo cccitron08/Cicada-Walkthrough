@@ -5,7 +5,7 @@ Machine Info
 * **OS:** `Windows` 
 * **Category:** `Web`
 * **Difficulty:** `Easy`
-* **Author / Source:** `https://app.hackthebox.com/machines/Jerry`
+* **Author / Source:** https://app.hackthebox.com/machines/Jerry
 * **Date solved:** `2025-09-27`
 
 ---
@@ -26,6 +26,7 @@ The metasploit module multi/http/tomcat_mgr_upload was used to upload and execut
 ## Credits
 
 * **Lab author:** `mrh4sh`
-* **Author link:** `https://app.hackthebox.com/users/2570`
+* **Author link:** https://app.hackthebox.com/users/2570
+
 
 
