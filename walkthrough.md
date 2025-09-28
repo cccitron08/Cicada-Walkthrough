@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 
-=======
   <img width="285" height="121" alt="icon" src="https://github.com/user-attachments/assets/86a31e60-803e-4fdd-95e2-8afb4ed63a69" />
 
 
@@ -71,6 +69,7 @@ Run Tomcat with the least privileges possible so an exploited app can’t fully 
 Monitor and alert on manager uploads and unusual deployments.
 
 <img width="696" height="618" alt="finish" src="https://github.com/user-attachments/assets/f43448b0-86cc-4e18-8b26-79dff30041dd" />
+
 
 
 
