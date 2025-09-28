@@ -5,10 +5,10 @@
 Machine Info
 
 * **Name:** `Jerry`
-* **OS:** `Windows` (version if known)
+* **OS:** `Windows` 
 * **Category:** `Web`
 * **Difficulty:** `Easy`
-* **Source:** `https://app.hackthebox.com/machines/144`
+* **Source:** https://app.hackthebox.com/machines/144
 * **Date solved:** `2025-09-27`
 
 ---
@@ -26,5 +26,5 @@ Apache Tomcat 8080
 
 ## Contact / Credits
 
-* **Lab author:** ` mrh4sh`
-* **Author link:** `https://app.hackthebox.com/users/2570` 
+* **Lab author:** `mrh4sh`
+* **Author link:** https://app.hackthebox.com/users/2570
