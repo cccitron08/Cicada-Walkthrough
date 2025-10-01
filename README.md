@@ -4,7 +4,7 @@
 Machine Info
 
 * **Name:** `Cicada`
-* **OS:** `Windows` (version if known)
+* **OS:** `Windows` 
 * **Category:** `AD / SMB / Network`
 * **Difficulty:** `Easy`
 * **Source:** https://app.hackthebox.com/machines/627
